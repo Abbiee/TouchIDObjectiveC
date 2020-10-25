@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600387122545885D000A815E /* KonyiOSBiomteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600387112545885D000A815E /* KonyiOSBiomteryController.m */; };
+		6057F446253EE81D00D57D03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057F445253EE81D00D57D03 /* AppDelegate.m */; };
+		6057F449253EE81D00D57D03 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057F448253EE81D00D57D03 /* SceneDelegate.m */; };
+		6057F44F253EE81D00D57D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6057F44D253EE81D00D57D03 /* Main.storyboard */; };
+		6057F451253EE82100D57D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6057F450253EE82100D57D03 /* Assets.xcassets */; };
+		6057F454253EE82100D57D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6057F452253EE82100D57D03 /* LaunchScreen.storyboard */; };
+		6057F457253EE82100D57D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057F456253EE82100D57D03 /* main.m */; };
+		6057F461253EE82200D57D03 /* FaceID_FFI_KonyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057F460253EE82200D57D03 /* FaceID_FFI_KonyTests.m */; };
+		6057F46C253EE82200D57D03 /* FaceID_FFI_KonyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057F46B253EE82200D57D03 /* FaceID_FFI_KonyUITests.m */; };
+		6057F487253EE92A00D57D03 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6057F486253EE92A00D57D03 /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6057F45D253EE82200D57D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6057F439253EE81D00D57D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6057F440253EE81D00D57D03;
+			remoteInfo = FaceID_FFI_Kony;
+		};
+		6057F468253EE82200D57D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6057F439253EE81D00D57D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6057F440253EE81D00D57D03;
+			remoteInfo = FaceID_FFI_Kony;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		600387102545885D000A815E /* KonyiOSBiomteryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KonyiOSBiomteryController.h; sourceTree = "<group>"; };
+		600387112545885D000A815E /* KonyiOSBiomteryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KonyiOSBiomteryController.m; sourceTree = "<group>"; };
+		6057F441253EE81D00D57D03 /* FaceID_FFI_Kony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceID_FFI_Kony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6057F444253EE81D00D57D03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6057F445253EE81D00D57D03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6057F447253EE81D00D57D03 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6057F448253EE81D00D57D03 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6057F44E253EE81D00D57D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6057F450253EE82100D57D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6057F453253EE82100D57D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6057F455253EE82100D57D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6057F456253EE82100D57D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6057F45C253EE82200D57D03 /* FaceID_FFI_KonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceID_FFI_KonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6057F460253EE82200D57D03 /* FaceID_FFI_KonyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceID_FFI_KonyTests.m; sourceTree = "<group>"; };
+		6057F462253EE82200D57D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6057F467253EE82200D57D03 /* FaceID_FFI_KonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceID_FFI_KonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6057F46B253EE82200D57D03 /* FaceID_FFI_KonyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceID_FFI_KonyUITests.m; sourceTree = "<group>"; };
+		6057F46D253EE82200D57D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6057F485253EE92A00D57D03 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		6057F486253EE92A00D57D03 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6057F43E253EE81D00D57D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057F459253EE82200D57D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057F464253EE82200D57D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6057F438253EE81D00D57D03 = {
+			isa = PBXGroup;
+			children = (
+				6057F443253EE81D00D57D03 /* FaceID_FFI_Kony */,
+				6057F45F253EE82200D57D03 /* FaceID_FFI_KonyTests */,
+				6057F46A253EE82200D57D03 /* FaceID_FFI_KonyUITests */,
+				6057F442253EE81D00D57D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6057F442253EE81D00D57D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6057F441253EE81D00D57D03 /* FaceID_FFI_Kony.app */,
+				6057F45C253EE82200D57D03 /* FaceID_FFI_KonyTests.xctest */,
+				6057F467253EE82200D57D03 /* FaceID_FFI_KonyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6057F443253EE81D00D57D03 /* FaceID_FFI_Kony */ = {
+			isa = PBXGroup;
+			children = (
+				6057F444253EE81D00D57D03 /* AppDelegate.h */,
+				6057F445253EE81D00D57D03 /* AppDelegate.m */,
+				6057F447253EE81D00D57D03 /* SceneDelegate.h */,
+				6057F448253EE81D00D57D03 /* SceneDelegate.m */,
+				6057F485253EE92A00D57D03 /* FirstViewController.h */,
+				6057F486253EE92A00D57D03 /* FirstViewController.m */,
+				600387102545885D000A815E /* KonyiOSBiomteryController.h */,
+				600387112545885D000A815E /* KonyiOSBiomteryController.m */,
+				6057F44D253EE81D00D57D03 /* Main.storyboard */,
+				6057F450253EE82100D57D03 /* Assets.xcassets */,
+				6057F452253EE82100D57D03 /* LaunchScreen.storyboard */,
+				6057F455253EE82100D57D03 /* Info.plist */,
+				6057F456253EE82100D57D03 /* main.m */,
+			);
+			path = FaceID_FFI_Kony;
+			sourceTree = "<group>";
+		};
+		6057F45F253EE82200D57D03 /* FaceID_FFI_KonyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6057F460253EE82200D57D03 /* FaceID_FFI_KonyTests.m */,
+				6057F462253EE82200D57D03 /* Info.plist */,
+			);
+			path = FaceID_FFI_KonyTests;
+			sourceTree = "<group>";
+		};
+		6057F46A253EE82200D57D03 /* FaceID_FFI_KonyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6057F46B253EE82200D57D03 /* FaceID_FFI_KonyUITests.m */,
+				6057F46D253EE82200D57D03 /* Info.plist */,
+			);
+			path = FaceID_FFI_KonyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6057F440253EE81D00D57D03 /* FaceID_FFI_Kony */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6057F470253EE82200D57D03 /* Build configuration list for PBXNativeTarget "FaceID_FFI_Kony" */;
+			buildPhases = (
+				6057F43D253EE81D00D57D03 /* Sources */,
+				6057F43E253EE81D00D57D03 /* Frameworks */,
+				6057F43F253EE81D00D57D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceID_FFI_Kony;
+			productName = FaceID_FFI_Kony;
+			productReference = 6057F441253EE81D00D57D03 /* FaceID_FFI_Kony.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6057F45B253EE82200D57D03 /* FaceID_FFI_KonyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6057F473253EE82200D57D03 /* Build configuration list for PBXNativeTarget "FaceID_FFI_KonyTests" */;
+			buildPhases = (
+				6057F458253EE82200D57D03 /* Sources */,
+				6057F459253EE82200D57D03 /* Frameworks */,
+				6057F45A253EE82200D57D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6057F45E253EE82200D57D03 /* PBXTargetDependency */,
+			);
+			name = FaceID_FFI_KonyTests;
+			productName = FaceID_FFI_KonyTests;
+			productReference = 6057F45C253EE82200D57D03 /* FaceID_FFI_KonyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6057F466253EE82200D57D03 /* FaceID_FFI_KonyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6057F476253EE82200D57D03 /* Build configuration list for PBXNativeTarget "FaceID_FFI_KonyUITests" */;
+			buildPhases = (
+				6057F463253EE82200D57D03 /* Sources */,
+				6057F464253EE82200D57D03 /* Frameworks */,
+				6057F465253EE82200D57D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6057F469253EE82200D57D03 /* PBXTargetDependency */,
+			);
+			name = FaceID_FFI_KonyUITests;
+			productName = FaceID_FFI_KonyUITests;
+			productReference = 6057F467253EE82200D57D03 /* FaceID_FFI_KonyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6057F439253EE81D00D57D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6057F440253EE81D00D57D03 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					6057F45B253EE82200D57D03 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 6057F440253EE81D00D57D03;
+					};
+					6057F466253EE82200D57D03 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 6057F440253EE81D00D57D03;
+					};
+				};
+			};
+			buildConfigurationList = 6057F43C253EE81D00D57D03 /* Build configuration list for PBXProject "FaceID_FFI_Kony" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6057F438253EE81D00D57D03;
+			productRefGroup = 6057F442253EE81D00D57D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6057F440253EE81D00D57D03 /* FaceID_FFI_Kony */,
+				6057F45B253EE82200D57D03 /* FaceID_FFI_KonyTests */,
+				6057F466253EE82200D57D03 /* FaceID_FFI_KonyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6057F43F253EE81D00D57D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057F454253EE82100D57D03 /* LaunchScreen.storyboard in Resources */,
+				6057F451253EE82100D57D03 /* Assets.xcassets in Resources */,
+				6057F44F253EE81D00D57D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057F45A253EE82200D57D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057F465253EE82200D57D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6057F43D253EE81D00D57D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057F446253EE81D00D57D03 /* AppDelegate.m in Sources */,
+				6057F457253EE82100D57D03 /* main.m in Sources */,
+				6057F487253EE92A00D57D03 /* FirstViewController.m in Sources */,
+				6057F449253EE81D00D57D03 /* SceneDelegate.m in Sources */,
+				600387122545885D000A815E /* KonyiOSBiomteryController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057F458253EE82200D57D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057F461253EE82200D57D03 /* FaceID_FFI_KonyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6057F463253EE82200D57D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6057F46C253EE82200D57D03 /* FaceID_FFI_KonyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6057F45E253EE82200D57D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6057F440253EE81D00D57D03 /* FaceID_FFI_Kony */;
+			targetProxy = 6057F45D253EE82200D57D03 /* PBXContainerItemProxy */;
+		};
+		6057F469253EE82200D57D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6057F440253EE81D00D57D03 /* FaceID_FFI_Kony */;
+			targetProxy = 6057F468253EE82200D57D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6057F44D253EE81D00D57D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6057F44E253EE81D00D57D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6057F452253EE82100D57D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6057F453253EE82100D57D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6057F46E253EE82200D57D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6057F46F253EE82200D57D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6057F471253EE82200D57D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7KR8D5MT4;
+				INFOPLIST_FILE = FaceID_FFI_Kony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abbie.sample.FaceID-FFI-Kony";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6057F472253EE82200D57D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7KR8D5MT4;
+				INFOPLIST_FILE = FaceID_FFI_Kony/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abbie.sample.FaceID-FFI-Kony";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6057F474253EE82200D57D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceID_FFI_KonyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abbie.sample.FaceID-FFI-KonyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceID_FFI_Kony.app/FaceID_FFI_Kony";
+			};
+			name = Debug;
+		};
+		6057F475253EE82200D57D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceID_FFI_KonyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abbie.sample.FaceID-FFI-KonyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceID_FFI_Kony.app/FaceID_FFI_Kony";
+			};
+			name = Release;
+		};
+		6057F477253EE82200D57D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceID_FFI_KonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abbie.sample.FaceID-FFI-KonyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceID_FFI_Kony;
+			};
+			name = Debug;
+		};
+		6057F478253EE82200D57D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceID_FFI_KonyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abbie.sample.FaceID-FFI-KonyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceID_FFI_Kony;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6057F43C253EE81D00D57D03 /* Build configuration list for PBXProject "FaceID_FFI_Kony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057F46E253EE82200D57D03 /* Debug */,
+				6057F46F253EE82200D57D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6057F470253EE82200D57D03 /* Build configuration list for PBXNativeTarget "FaceID_FFI_Kony" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057F471253EE82200D57D03 /* Debug */,
+				6057F472253EE82200D57D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6057F473253EE82200D57D03 /* Build configuration list for PBXNativeTarget "FaceID_FFI_KonyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057F474253EE82200D57D03 /* Debug */,
+				6057F475253EE82200D57D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6057F476253EE82200D57D03 /* Build configuration list for PBXNativeTarget "FaceID_FFI_KonyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6057F477253EE82200D57D03 /* Debug */,
+				6057F478253EE82200D57D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6057F439253EE81D00D57D03 /* Project object */;
+}
